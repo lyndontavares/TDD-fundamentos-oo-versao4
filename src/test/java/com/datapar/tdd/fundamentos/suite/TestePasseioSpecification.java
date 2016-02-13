@@ -14,6 +14,16 @@ import com.datapar.tdd.fundamentos.specification.generics.Specification;
 
 public class TestePasseioSpecification {
 
+/*	
+    The Specification pattern in its core is simple, it consists of an interface with one method:
+
+	To reach our goals set up above, Evans extends it using the GoF Composition and Decorator patterns 
+	to give it some more operations:
+
+	We can implement this with one interface, one abstract class and three specialized classes, one 
+	each for the AND, OR, and NOT operations:	
+*/	
+	
 	@Test
 	public void testFindCandidateCars() throws Exception {
 
